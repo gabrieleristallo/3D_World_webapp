@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* Stili per tutte le pagine */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Stili per la pagina index.jsp */
+
+.first {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.centered-element {
+    text-align: center;
+}
+
+.product-details {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+}
+
+.product-details h2 {
+    font-size: 20px;
+}
+
+.product-details .description {
+    margin-bottom: 10px;
+}
+
+.product-details .info {
+    color: #888;
+}
+
+/* Stili per le form di login e registrazione */
+
+.form {
+    margin-top: 60px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Stili specifici per la pagina index.jsp */
+
+/* Puoi aggiungere eventuali stili specifici per questa pagina qui */
+
+/* Stili specifici per la pagina login.jsp */
+
+/* Puoi aggiungere eventuali stili specifici per questa pagina qui */
+
+/* Stili specifici per la pagina register.jsp */
+
+/* Puoi aggiungere eventuali stili specifici per questa pagina qui */
+
+/* Stili specifici per la pagina admin_login.jsp */
+
+/* Puoi aggiungere eventuali stili specifici per questa pagina qui */

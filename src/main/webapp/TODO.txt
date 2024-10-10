@@ -1,0 +1,3 @@
+Da dispositivi mobili la formattazione della lista dei prodotti non è corretta
+
+Aggiungere il pulsante mostra password a tutti i campi password

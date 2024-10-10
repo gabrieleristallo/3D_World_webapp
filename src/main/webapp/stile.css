@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+body {
+    font-family: Helvetica, Arial, sans-serif; /* Imposta il tipo di carattere su Helvetica */
+    font-size: 65% !important;
+}
+
+/* Stile per il header */
+header {
+    background-color: #333; /* Colore di sfondo */
+    color: #fff; /* Colore del testo */
+    padding: 10px; /* Spazio interno */
+    display: flex; /* Utilizza il layout flessibile */
+    justify-content: space-between; /* Distribuisci gli elementi in modo uniforme */
+    align-items: center; /* Allinea verticalmente gli elementi al centro */
+    height: 40px; /* Altezza della barra di navigazione */
+    position: fixed; /* Blocca la barra di navigazione */
+    width: 100%; /* Occupa l'intera larghezza della finestra */
+    top: 0; /* Posiziona la barra di navigazione in cima alla finestra */
+    z-index: 1000; /* Assicura che la barra di navigazione sia sopra gli altri elementi */
+}
+
+/* Stile per il titolo */
+header h3 {
+    margin: 0; /* Rimuovi il margine */
+}
+
+/* Stile per il menu di navigazione */
+nav ul {
+    list-style-type: none; /* Rimuovi i punti elenco */
+    margin: 0; /* Rimuovi il margine */
+    padding: 0; /* Rimuovi il padding */
+    height: 100%; /* Occupa tutta l'altezza della barra di navigazione */
+}
+
+nav ul li {
+    display: inline; /* Visualizza gli elementi in linea */
+    margin-right: 20px; /* Aggiungi spazio tra gli elementi */
+}
+
+nav ul li a {
+    color: #fff; /* Colore del testo */
+    text-decoration: none; /* Rimuovi il sottolineato */
+}
+
+/* Stile per la barra di ricerca */
+.search-bar {
+    display: flex; /* Utilizza il layout flessibile */
+    align-items: center; /* Allinea verticalmente gli elementi al centro */
+}
+
+.search-bar input[type="text"] {
+    margin-right: 10px; /* Aggiungi spazio tra l'input e il pulsante */
+}
+
+/* Stile per il pulsante "Accedi" */
+.login-button {
+    background-color: #fff; /* Colore di sfondo */
+    color: #333; /* Colore del testo */
+    padding: 6px 14px; /* Padding */
+    border: none; /* Rimuovi il bordo */
+    border-radius: 4px; /* Bordi arrotondati */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+}
+
+.cerca-button {
+	background-color: #fff; /* Colore di sfondo */
+    color: #333; /* Colore del testo */
+    border: none; /* Rimuovi il bordo */
+    border-radius: 4px; /* Bordi arrotondati */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+}
+
+/* Stile per lo spazio tra gli elementi */
+.spacer {
+    flex-grow: 1; /* Fai crescere lo spazio vuoto in modo che occupi tutto lo spazio disponibile */
+}
+
+h3.centered-element {
+    text-align: center !important; /* Allinea tutto il contenuto del tag h3 al centro */
+}
+
+h3.centered-element span {
+    display: inline-block; /* Rendi l'elemento inline-block per consentire l'allineamento orizzontale */
+}
+
+li a:hover {
+    /* Regole CSS per i tag <a> all'interno di <li> al passaggio del mouse */
+    /* Ad esempio: */
+    color: darkgray; /* Cambia il colore del testo al passaggio del mouse */
+}
+
+
+.first {
+	padding-top: 45px;
+}
+
+.product-details {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+.product-details h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.product-details .description {
+    margin-bottom: 10px;
+}
+
+.product-details .description p {
+    margin: 0;
+}
+
+.product-details .description strong {
+    color: #555;
+}
+
+.product-details .info p {
+    margin: 0;
+}
+
+button:hover {
+    background-color: #999 ; /* Cambia il colore di sfondo al passaggio del mouse */
+    text-color: #EEE;
+}
+
+/* Stile per il pulsante cliccato */
+button:active {
+    background-color: #AAA; /* Cambia il colore di sfondo quando il pulsante viene cliccato */
+}
+
+/* Stile per il contenitore principale */
+.form {
+	margin-top: 60px;
+    max-width: 400px; /* Larghezza massima del contenitore */
+    margin: 0 auto; /* Centrare il contenitore orizzontalmente */
+    padding: 20px; /* Spaziatura interna */
+    background-color: #f9f9f9; /* Colore di sfondo */
+    border-radius: 5px; /* Bordi arrotondati */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombra */
+}
+
+
+/* Stile per le etichette dei campi di input */
+label {
+    display: block; /* Visualizza le etichette come blocchi separati */
+    margin-bottom: 5px; /* Spaziatura inferiore */
+}
+
+/* Stile per gli input */
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%; /* Occupa tutta la larghezza disponibile */
+    height: 80%;
+    padding: 10px; /* Spaziatura interna */
+    margin-bottom: 10px; /* Spaziatura inferiore */
+    margin-right: 10px;
+    border: 1px solid #ccc; /* Bordo */
+    border-radius: 3px; /* Bordi arrotondati */
+}
+
+/* Stile per il pulsante di invio */
+input[type="submit"].formsubmit {
+    width: 100%; /* Occupa tutta la larghezza disponibile */
+    padding: 10px; /* Spaziatura interna */
+    background-color: #FFF; /* Colore di sfondo */
+    color: #333; /* Colore del testo */
+    border: none; /* Rimuovi il bordo */
+    border-radius: 3px; /* Bordi arrotondati */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/* Stile per il pulsante di invio al passaggio del mouse */
+input[type="submit"].formsubmit:hover {
+    background-color: #0056b3; /* Cambia il colore di sfondo al passaggio del mouse */
+}
+
+.product-color {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000; /* Opzionale: bordo nero */
+    display: inline-block;
+    margin-right: 10px; /* Opzionale: spazio tra la casella del colore e le informazioni del prodotto */
+}
+
+
+
